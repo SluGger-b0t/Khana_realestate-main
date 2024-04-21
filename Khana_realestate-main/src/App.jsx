@@ -13,12 +13,14 @@ import Sections from "./components/Philosophy/Sections.jsx";
 import ScrollButtons from "./components/Philosophy/ScrollButton.jsx";
 import RoutesAll from "./RoutesAll.jsx";
 import FinalPhilosophy from "./components/Philosophy/FinalPhilosophy.jsx";
+import FinalCareer from "./components/Career/FinalCareer.jsx";
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<RoutesAll></RoutesAll>}></Route>
         <Route path="/philosophy" element={<FinalPhilosophy></FinalPhilosophy>}></Route>
+        <Route path="/career" element={<FinalCareer></FinalCareer>}></Route>
         <Route path="/contact" element={<Contact></Contact>} ></Route>
         <Route path="/team" element={<Leadership></Leadership>} ></Route>
         {/*   <div className="sticky top-0   w-screen h-30 z-10" id="navbar">

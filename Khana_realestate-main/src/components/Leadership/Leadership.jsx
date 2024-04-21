@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar';
-import a from './leader.jpg'
+import a from './leadership.jpg'
 import First from './First';
 import Section from './Section'
 const Leadership = () => {

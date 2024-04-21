@@ -17,7 +17,7 @@ const Sections = () => {
           <img
             src={a}
             alt="Image"
-            className="sm:mx-16 sm:w-full md:ml-20  hover:scale-105 duration-150"
+            className="sm:mx-16 sm:w-full md:ml-20 hover:scale-105 duration-150"
           />
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0 md:pl-4 ml-5 ">
@@ -65,7 +65,7 @@ const Sections = () => {
         <div className="md:w-1/2 mt-10 md:mt-0 md:pl-4 ml-5 ">
           <div className="text-3xl flex justify-center font-light">
             {" "}
-            THE SOBHA WAY
+            OUR WAY
           </div>
           <p
             className="scrollable-text overflow-auto max-h-80 md:mt-6 md:mx-6"
